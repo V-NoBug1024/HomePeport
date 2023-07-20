@@ -1,0 +1,38 @@
+.tr1 {
+  min-height: 30px;
+  line-height: 20px;
+  font-size: 12px;
+  color: #323232;
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+  // border-top: 0.5px solid #f4f4f4;
+  &:nth-child(odd) {
+    background: #FAFBFC;
+  }
+  &:nth-child(even) {
+    background: #fff;
+  }
+  border-bottom: 0.5px solid #f4f4f4;
+  .td1 {
+    width: 24%;
+    display: inline-block;
+  }
+  .td2 {
+    width: 24%;
+    display: inline-block;
+  }
+  .td2_2 {
+    width: 22%;
+    display: inline-block;
+  }
+  .td3 {
+    width: 12%;
+    display: inline-block;
+  }
+  .td4 {
+    width: 18%;
+    display: inline-block;
+  }
+  
+}

@@ -1,0 +1,17 @@
+.tagWrap {
+  height: 27.5px;
+  padding-top: 10px;
+  width: 100%;
+  .tag {
+    display: inline-block;
+    padding-left: 6px;
+    padding-right: 12px;
+    height: 100%;
+    background-image: linear-gradient(-90deg, #509bff 9%, #567dff 89%);
+    border-radius: 0 85px 85px 0;
+    font-size: 15px;
+    line-height: 27.5px;
+    text-align: center;
+    color: #ffffff;
+  }
+}

@@ -1,0 +1,76 @@
+.tableWrap {
+  font-size: 12px;
+  border-radius: 6px;
+  margin: 10px 0 10px;
+  overflow: hidden;
+}
+.left {
+  width: 100%;
+  background-color: #ffffff;
+  z-index: 99;
+}
+.leftContent {
+  float: left;
+  width: 100px;
+  max-height: calc(100vh - 150px);
+  position: relative;
+  z-index: 99;
+}
+.partHeigth {
+  max-height: calc(100vh - 300px) !important;
+}
+.right {
+  background-color: "blue";
+  overflow-x: scroll;
+}
+.rightContent {
+  max-height: calc(100vh - 150px);
+  position: relative;
+  ::-webkit-scrollbar {
+    width : 10px;
+    height: 1px;
+  }
+}
+.noData {
+  text-align: center;
+  margin: 10px 10px;
+  border-radius: 6px;
+  padding: 20%;
+  color: #90959A;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #fff;
+  .nodataTips {
+    margin: 5px;
+  }
+}
+.tipsText {
+  color: #90959a;
+  font-size: 12px;
+  padding: 5px 0 0 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 120px;
+  margin: 0 auto;
+  .tipsImg {
+    margin: 1px 2px;
+    .img {
+      width: 12px;
+      height: 12px;
+    }
+  }
+}
+.tips {
+  color: #90959a;
+  font-size: 14px;
+}
+.saleIndex {
+  background: #fff;
+  text-align: center;
+  height: 30px;
+  line-height: 30px;
+  font-weight: bold;
+}
